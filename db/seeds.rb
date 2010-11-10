@@ -1,11 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#   
-#   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
-#   Major.create(:name => 'Daley', :city => cities.first)
-
 Company.create({:name => "Sapna Solutions Pvt. Ltd.", :description => "", :address1 => "Om Shanti cottage", :address2 => "Kalyani Nagar", :pincode => "410014"})
 Company.create({:name => "Better Labs", :description => "", :address1 => "", :address2 => "", :pincode => ""})
 Company.create({:name => "Webonise Software Solutions Pvy. Ltd.", :description => "", :address1 => "Block 7, Indraprastha Chambers", :address2 => "Mayur colony, Karve Road, Kothrud", :pincode => "410029"})
@@ -19,3 +11,6 @@ Company.create({:name => "True Sparrow Systems", :description => "", :address1 =
 Company.create({:name => "Neova Solutions", :description => "", :address1 => "P1/602, Pentagon towers, Magarpatta City,", :address2 => "Hadapsar, Pune ", :pincode => "411028"})
 Company.create({:name => "Blue Shores Solutions Pvt. Ltd.", :description => "", :address1 => "Mayfair towers, Wakdewadi", :address2 => "Pune", :pincode => "411028"})
 Company.create({:name => "SNS Technologies", :description => "", :address1 => "Koregoan Park", :address2 => "Pune", :pincode => "411028"})
+Company.create({:name => "Purple Bits", :description => "", :address1 => "B1-204 Lunkad Amazon", :address2 => "Viman Nagar, Pune", :pincode => "411014"})
+Company.create({:name => "Ingenile Technologies", :description => "", :address1 => "", :address2 => "Pune", :pincode => "411014"})
+Company.create({:name => "Elpis LLC", :description => "", :address1 => "Aundh", :address2 => "Pune", :pincode => "411014"})
